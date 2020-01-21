@@ -1,0 +1,9 @@
+{
+  "name": "introProject",
+  "version": "1.0.0",
+  "dependencies": {},
+
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  }
+}
