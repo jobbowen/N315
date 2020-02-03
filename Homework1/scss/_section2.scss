@@ -1,0 +1,78 @@
+.section2 {
+  margin: 1%;
+  display: flex;
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+
+  .box1 {
+    height: 80vh;
+    width: 50vw;
+    margin-right: 1%;
+    display: flex;
+    background-image: url("../images/littleamerica.jpg");
+    background-size: cover;
+    img {
+      max-width: 25%;
+      max-height: 25%;
+      width: auto;
+      height: auto;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .callout {
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      h4 {
+        font-size: 200%;
+        text-shadow: .5px .5px #000000;
+      }
+      h5 {
+        font-size: 100%;
+        text-shadow: .5px .5px #000000;
+      }
+    }
+  }
+
+  .box2 {
+    height: 80vh;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .callout {
+      position: absolute;
+      text-align: center;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin-left: 5%;
+      h4 {
+        font-size: 400%;
+        text-shadow: .5px .5px #000000;
+      }
+      h5 {
+        font-size: 140%;
+        text-shadow: .5px .5px #000000;
+      }
+      h6 {
+        font-size: 125%;
+        cursor: pointer;
+      }
+    }
+  }
+}

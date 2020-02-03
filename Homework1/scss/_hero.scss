@@ -1,0 +1,26 @@
+.hero {
+  height: 100%;
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, .8)),
+  url("../images/iphone.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  .callout {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 800%;
+    }
+
+    h4 {
+      font-size: 200%;
+    }
+  }
+}
