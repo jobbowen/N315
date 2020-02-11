@@ -1,0 +1,270 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceContent {
+  word-wrap: break-word;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-image: url("https://miro.medium.com/max/3840/1*_o9Z6bf_hnHlHcuEz5RUoA.jpeg");
+  margin-bottom: 2%;
+
+  .serviceText {
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+  }
+
+  h4 {
+    word-wrap: break-word;
+    font-size: .3em;
+    margin-top: 5%;
+  }
+
+  button {
+    color: #fff;
+    padding: 2%;
+    font-size: .5em;
+    background-color: rgba(0,0,0,.7);
+    border: solid 1px aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  button:hover {
+    border: 10px solid #009393;
+  }
+}
+
+.serviceTitle {
+  width: 100%;
+  color: #fff;
+  margin-left: 40%;
+  margin-bottom: 1%;
+}
+
+.serviceBox {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://imgs.6sqft.com/wp-content/uploads/2014/05/21065811/tsai2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%;
+  }
+}
+
+.serviceBox2 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://static.turbosquid.com/Preview/001200/882/QO/3D-modern-doors_Z.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%;
+  }
+}
+
+.serviceBox3 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://d1abomko0vm8t1.cloudfront.net/article/images/740x500/dimg/bank_vault_3d_wallpaper_hd-1920x1080-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%;
+  }
+}
+
+.serviceBox4 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://d4qwptktddc5f.cloudfront.net/easy_thumbnails/thumbs_klid_times_ocean_club_house_elevator_lobby.jpg.770x0_q95.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%;
+  }
+}
+
+.homes {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  h1 {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+.aiHome {
+  width: 15%;
+  height: 20vh;
+  background-color: red;
+  margin-left: 12%;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/03/7819-Intro-Page-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+.aiHome2 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/06/4039-intro-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+.aiHome3 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("https://www.bdrholdings.com/wp-content/uploads/2016/08/6214-intro-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+.aiHome4 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/03/10625-se-22nd-st-intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+.aiHome5 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2016/07/9015-intro-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  h1 {
+    color: #fff;
+  }
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+
+  h1 {
+    color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+.break {
+  width: 100%;
+  margin-top: 5%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.contactForm {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  width: 60%;
+  height: 20%;
+  border: 1px solid #fff;
+  padding: 1%;
+
+  label {
+    width: 100%;
+    margin: 1%;
+    color: #fff;
+  }
+
+  input {
+    width: 95%;
+    margin: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  input:last-of-type {
+    height: 10vh;
+  }
+
+  button {
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    margin-left: 90%;
+  }
+}
+

@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, serif;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.nav {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center; }
+  .nav #contact {
+    flex: 1; }
+  .nav .navElements {
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-top: 1.7%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em; }
+  .nav .fab {
+    color: aqua; }
+  .nav a {
+    margin-top: 1.8%;
+    margin-right: -5%; }
+  .nav .social {
+    margin-left: -6%; }
+
+.content {
+  display: flex;
+  flex-wrap: wrap; }
+
+.homeContent {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://media.wired.com/photos/5c1ae77ae91b067f6d57dec0/master/pass/Comparison-City-MAIN-ART.jpg"); }
+  .homeContent .homeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em; }
+
+.introBoxLeft {
+  width: 50%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://images.wallpaperscraft.com/image/city_night_panorama_117682_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .introBoxLeft span {
+    padding: 5%;
+    font-size: 2em;
+    margin-top: 7%; }
+
+.introBoxRight {
+  width: 50%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://cdn.getyourguide.com/img/tour_img-1096032-148.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .introBoxRight span {
+    padding: 5%;
+    font-size: 2em;
+    margin-top: 7%; }
+
+.mission {
+  width: 100%;
+  margin: 1%;
+  height: auto;
+  background-color: transparent;
+  border-radius: 10px; }
+  .mission h1 {
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .mission h4 {
+    margin: 1%;
+    color: #fff;
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%; }
+
+.callout {
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2%; }
+  .callout h1 {
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .callout button {
+    margin: 0 auto;
+    font-size: 2em;
+    width: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: .7;
+    transition: .4s; }
+  .callout button:hover {
+    cursor: pointer;
+    opacity: 1; }
+
+.aboutContent {
+  width: 75%;
+  height: 75vh;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .aboutContent h1 {
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .aboutContent .holder {
+    width: 70%;
+    height: 70%;
+    background-image: url("https://media.architecturaldigest.com/photos/5d77ea32d6d1d60008832cce/master/w_1333,h_2000,c_limit/GettyImages-471443271.jpg");
+    background-size: cover;
+    margin-left: 3%; }
+  .aboutContent h3 {
+    color: #fff;
+    margin: 2%; }
+
+.hq {
+  width: 25%;
+  height: 75vh;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .hq h1 {
+    margin: 1%;
+    margin-top: 3%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .hq .holder {
+    width: 90%;
+    height: 60%;
+    background-image: url("https://static.dezeen.com/uploads/2018/07/the-pearl-skyscraper-movie-dwayne-johnson_dezeen_hero.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 5%; }
+  .hq h3 {
+    color: #fff;
+    margin: 2%;
+    margin-top: 6%; }
+
+.team {
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap; }
+  .team h1 {
+    width: 100%;
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .team .mvp {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .7;
+    transition: .4s; }
+  .team .mvp:hover {
+    opacity: 1; }
+  .team #mvp1 {
+    background-image: url("https://items.ssrc.org/wp-content/uploads/2016/09/Shweder_Square-1-128x128.jpg");
+    background-size: cover; }
+  .team #mvp2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuf1gKeaFinoBczOEolh9Vf0ei9meqq4zmZoRv8jaVRjvtN33k");
+    background-size: cover; }
+  .team #mvp3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcCuR71Zy8YU44UAnHTegFnb-_DQf5Dmn9Nt_rvH44aFIwjX27");
+    background-size: cover; }
+  .team #mvp4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRszoLxx8uteGm4_iOjxxZbWCrAyECnj9i1OExkwt7Pz-4pYnE_");
+    background-size: cover; }
+  .team h3 {
+    color: #fff;
+    margin: 5%; }
+
+.customer {
+  width: 100%;
+  height: 45vh;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap; }
+  .customer h1 {
+    width: 100%;
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+  .customer .testimonial {
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    background-color: transparent;
+    margin: 0 auto; }
+    .customer .testimonial h2 {
+      color: #fff;
+      margin: 3%;
+      border-bottom: 1px solid #fff; }
+    .customer .testimonial h4 {
+      color: #fff;
+      margin: 3%;
+      margin-top: 0; }
+
+.address {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 5%; }
+  .address h1 {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-left: 35%; }
+  .address h4 {
+    color: #e5e5e5;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-right: 15%; }
+    .address h4 span {
+      font-size: 1.4em; }
+
+.content {
+  display: flex;
+  flex-wrap: wrap; }
+
+.serviceContent {
+  word-wrap: break-word;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-image: url("https://miro.medium.com/max/3840/1*_o9Z6bf_hnHlHcuEz5RUoA.jpeg");
+  margin-bottom: 2%; }
+  .serviceContent .serviceText {
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; }
+  .serviceContent h4 {
+    word-wrap: break-word;
+    font-size: .3em;
+    margin-top: 5%; }
+  .serviceContent button {
+    color: #fff;
+    padding: 2%;
+    font-size: .5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: solid 1px aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s; }
+  .serviceContent button:hover {
+    border: 10px solid #009393; }
+
+.serviceTitle {
+  width: 100%;
+  color: #fff;
+  margin-left: 40%;
+  margin-bottom: 1%; }
+
+.serviceBox {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://imgs.6sqft.com/wp-content/uploads/2014/05/21065811/tsai2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .serviceBox span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%; }
+
+.serviceBox2 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://static.turbosquid.com/Preview/001200/882/QO/3D-modern-doors_Z.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .serviceBox2 span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%; }
+
+.serviceBox3 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://d1abomko0vm8t1.cloudfront.net/article/images/740x500/dimg/bank_vault_3d_wallpaper_hd-1920x1080-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .serviceBox3 span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%; }
+
+.serviceBox4 {
+  width: 25%;
+  height: 30vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: url("https://d4qwptktddc5f.cloudfront.net/easy_thumbnails/thumbs_klid_times_ocean_club_house_elevator_lobby.jpg.770x0_q95.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .serviceBox4 span {
+    padding: 3%;
+    font-size: 2em;
+    margin-top: 35%;
+    margin-right: 25%; }
+
+.homes {
+  width: 100%;
+  height: auto;
+  display: flex; }
+  .homes h1 {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%; }
+
+.aiHome {
+  width: 15%;
+  height: 20vh;
+  background-color: red;
+  margin-left: 12%;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/03/7819-Intro-Page-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .aiHome h1 {
+    color: #fff; }
+
+.aiHome2 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/06/4039-intro-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .aiHome2 h1 {
+    color: #fff; }
+
+.aiHome3 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("https://www.bdrholdings.com/wp-content/uploads/2016/08/6214-intro-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .aiHome3 h1 {
+    color: #fff; }
+
+.aiHome4 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2017/03/10625-se-22nd-st-intro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .aiHome4 h1 {
+    color: #fff; }
+
+.aiHome5 {
+  width: 15%;
+  height: 20vh;
+  margin-right: 1%;
+  background-color: red;
+  background-image: url("http://www.bdrholdings.com/wp-content/uploads/2016/07/9015-intro-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  .aiHome5 h1 {
+    color: #fff; }
+
+.contact {
+  width: 100%;
+  display: flex;
+  margin-top: 5%; }
+  .contact h1 {
+    color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff; }
+
+.break {
+  width: 100%;
+  margin-top: 5%;
+  height: 1px;
+  background-color: #fff; }
+
+.contactForm {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  width: 60%;
+  height: 20%;
+  border: 1px solid #fff;
+  padding: 1%; }
+  .contactForm label {
+    width: 100%;
+    margin: 1%;
+    color: #fff; }
+  .contactForm input {
+    width: 95%;
+    margin: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%; }
+  .contactForm input:last-of-type {
+    height: 10vh; }
+  .contactForm button {
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    margin-left: 90%; }

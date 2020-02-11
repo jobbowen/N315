@@ -1,0 +1,173 @@
+.aboutContent {
+  width: 75%;
+  height: 75vh;
+  background-color: rgba(0,0,0,.7);
+
+  h1 {
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .holder {
+    width: 70%;
+    height: 70%;
+    background-image: url("https://media.architecturaldigest.com/photos/5d77ea32d6d1d60008832cce/master/w_1333,h_2000,c_limit/GettyImages-471443271.jpg");
+    background-size: cover;
+    margin-left: 3%;
+  }
+
+  h3 {
+    color: #fff;
+    margin: 2%;
+  }
+}
+
+.hq {
+  width: 25%;
+  height: 75vh;
+  background-color: rgba(0,0,0,.5);
+
+  h1 {
+    margin: 1%;
+    margin-top: 3%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .holder {
+    width: 90%;
+    height: 60%;
+    background-image: url("https://static.dezeen.com/uploads/2018/07/the-pearl-skyscraper-movie-dwayne-johnson_dezeen_hero.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  h3 {
+    color: #fff;
+    margin: 2%;
+    margin-top: 6%;
+  }
+}
+
+.team {
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0,0,0,.7);
+  margin: 0 auto;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    width: 100%;
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .mvp {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .7;
+    transition: .4s;
+  }
+
+  .mvp:hover {
+    opacity: 1;
+  }
+
+  #mvp1 {
+    background-image: url("https://items.ssrc.org/wp-content/uploads/2016/09/Shweder_Square-1-128x128.jpg");
+    background-size: cover;
+  }
+
+  #mvp2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuf1gKeaFinoBczOEolh9Vf0ei9meqq4zmZoRv8jaVRjvtN33k");
+    background-size: cover;
+  }
+
+  #mvp3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTcCuR71Zy8YU44UAnHTegFnb-_DQf5Dmn9Nt_rvH44aFIwjX27");
+    background-size: cover;
+  }
+
+  #mvp4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRszoLxx8uteGm4_iOjxxZbWCrAyECnj9i1OExkwt7Pz-4pYnE_");
+    background-size: cover;
+  }
+
+  h3 {
+    color: #fff;
+    margin: 5%;
+  }
+}
+
+.customer {
+  width: 100%;
+  height: 45vh;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    width: 100%;
+    margin: 1%;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .testimonial {
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    background-color: transparent;
+    margin: 0 auto;
+
+    h2 {
+      color: #fff;
+      margin: 3%;
+      border-bottom: 1px solid #fff;
+    }
+
+    h4 {
+      color: #fff;
+      margin: 3%;
+      margin-top: 0;
+    }
+  }
+}
+
+.address {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+  padding-bottom: 5%;
+
+  h1 {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-left: 35%;
+  }
+
+  h4 {
+    color: #e5e5e5;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-right: 15%;
+
+    span {
+      font-size: 1.4em;
+    }
+  }
+}

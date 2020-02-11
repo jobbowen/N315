@@ -1,0 +1,15 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "Populate a site using JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass --watch scss -o css"
+  },
+  "author": "Joey Bowen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

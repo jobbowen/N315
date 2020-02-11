@@ -1,0 +1,33 @@
+.nav {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+
+  #contact {
+    flex: 1;
+  }
+
+  .navElements {
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-top: 1.7%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  .fab {
+    color: aqua;
+  }
+
+  a {
+    margin-top: 1.8%;
+    margin-right: -5%;
+  }
+
+  .social {
+    margin-left: -6%;
+  }
+}
