@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddSave</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<form id="addForm">
+    <input type="text" name="content" placeholder="Content">
+    <input type="text" name="nav" placeholder="Nav Name">
+    <input type="text" name="subNav" placeholder="Sub Nav">
+    <button id="addData">Add Data</button>
+</form> <br>
+<button id="getData">Get Data</button> <br><br>
+<div id="outputData"></div>
+
+<div>
+    <input type="text" id="update" name="update" placeholder="update">
+</div>
+
+<script defer src="/__/firebase/7.8.1/firebase-app.js"></script>
+<!-- include only the Firebase features as you need -->
+<script defer src="/__/firebase/7.8.1/firebase-auth.js"></script>
+<script defer src="/__/firebase/7.8.1/firebase-database.js"></script>
+<script defer src="/__/firebase/7.8.1/firebase-firestore.js"></script>
+<script defer src="/__/firebase/7.8.1/firebase-messaging.js"></script>
+<script defer src="/__/firebase/7.8.1/firebase-storage.js"></script>
+<!-- initialize the SDK after all desired features are loaded -->
+<script defer src="/__/firebase/init.js"></script>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="app/service.js"></script>
+<script src="app/addSave.js"></script>
+</body>
+</html>
