@@ -1,0 +1,16 @@
+{
+  "name": "n315final",
+  "version": "1.0.0",
+  "description": "the final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch public/scss/ -o public/css"
+  },
+  "author": "Joey Bowen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
+}
