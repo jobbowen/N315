@@ -21,7 +21,7 @@
   "devDependencies": {
     "firebase-tools": "^7.12.1",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "firebase": "^7.13.2"
