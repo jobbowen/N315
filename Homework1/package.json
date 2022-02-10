@@ -12,7 +12,7 @@
   "devDependencies": {
     "gitignore": "^0.6.0",
     "i": "^0.3.6",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "create-gitignore": "^0.1.0"
